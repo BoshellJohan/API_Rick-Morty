@@ -82,6 +82,11 @@ main table {
     thead {
         font-size: 12px;
     }
+
+    main tr {
+        padding: 8px;
+        text-align: center;
+      }
   }
 
   
