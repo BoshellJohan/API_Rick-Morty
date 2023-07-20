@@ -4,14 +4,7 @@ body{
     font-size: 20px;
 }
 
-main img{
-    max-width: 100px;
-    max-height: 100px;
-    padding: 5px;
-    margin-top: 5px;
-    border-radius: 20%;
-    
-}
+
 main table {
     width: 100%;
     border-collapse: collapse;
@@ -23,9 +16,86 @@ main table {
     border-bottom: 2px solid #010101;
   }
 
+.imagen1Container,
+.imagen2Container {
+    padding-left: 10px;
+}
+
+  main img{
+    max-width: 100px;
+    max-height: 100px;
+    padding: 5px;
+    margin-top: 5px;
+    border-radius: 20%;
+}
+
+
   
-  @media screen and (max-width = 490px){
-   main img {
+  @media (max-width: 795px) {
+  
+    main td {
         max-width: 50px;
+        font-size: 16px
+    }
+  }
+
+  @media (max-width: 683px) {
+  
+    main td {
+        font-size: 13px
+    }
+
+    main img {
+        max-width: 80px;
+    }
+
+    thead {
+        font-size: 16px;
+    }
+  }
+
+  @media (max-width: 470px) {
+  
+    main td {
+        font-size: 11px
+    }
+
+    main img {
+        max-width: 70px;
+    }
+
+    thead {
+        font-size: 14px;
+    }
+  }
+
+  @media (max-width: 360px) {
+  
+    main td {
+        font-size: 10px
+    }
+
+    main img {
+        max-width: 60px;
+    }
+
+    thead {
+        font-size: 12px;
+    }
+  }
+
+  
+  @media (max-width: 298px) {
+  
+    main td {
+        font-size: 9px
+    }
+
+    main img {
+        max-width: 50px;
+    }
+
+    thead {
+        font-size: 10px;
     }
   }
